@@ -9,9 +9,8 @@ class App extends React.Component {
     this.state = {
       buttonClicked: "",
       assignments: [],
-      /*Below this line, add the students state variable*/
       student: [],
-      grades: {},
+      /*Below this line, add the students state variable*/ grades: {},
     };
 
     this.handleButtonClicked = this.handleButtonClicked.bind(this);
